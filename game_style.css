@@ -1,0 +1,118 @@
+html{
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    color: #555;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)),url("img/back.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+.back_game{
+    margin: 2% auto;
+    width: 80%;
+    height: 90vh;
+    background-color: #fff;
+    /*box-shadow:5px 5px 5px rgb(39, 39, 39);*/
+    position: relative;
+}
+.player-area{
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    
+}
+.player{
+    margin-top: 20%;
+}
+.total-score{
+    font-size: 400%;
+    color: rgba(247, 14, 14, 0.568);
+}
+h1{
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.current-area{
+    width: 130px;
+    height: auto;
+    background-color: rgba(247, 14, 14, 0.7);
+    margin: 25% auto;
+    color: black;
+    
+}
+.current{
+    color: blanchedalmond;
+    font-size: 170%;
+
+}
+.new{
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    cursor: pointer;
+    
+}
+.win{
+    position: absolute;
+    top: 20%;
+    left: 41%;
+    cursor: pointer;
+}
+.winform{
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    
+}
+.roll{
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    cursor: pointer;
+}
+.hold{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    cursor: pointer;
+}
+.player-area-1{
+    
+}
+div ion-icon{
+    color: rgba(247, 14, 14, 0.7);
+    font-size: 120%;
+    font-weight: 200;
+    
+}
+.dice{
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    width: 120px;
+    height: 120px;
+    box-shadow:0px 0px 8px #888888;
+}
+.new:hover,
+.roll:hover,
+.hold:hover,
+.win:hover{
+    font-size: 120%;
+}
+.active{
+    /*background-color: rgb(247, 247, 245);*/
+    background-color: rgb(238, 238, 234);
+}
+.winner{
+    color:rgba(247, 14, 14, 0.7);
+}
